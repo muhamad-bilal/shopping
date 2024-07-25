@@ -1,12 +1,14 @@
 import React from 'react';
+import './cart.css'; 
 
-const Cart = () => {
+
+const CartIcon = () => {
   return (
     <div className="cart-icon">
-      {/* Cart icon */}
+      <img src="/shopping-cart.png" alt="Cart Icon" />
       <span>0</span> {/* Cart items count */}
     </div>
   );
 };
 
-export default Cart;
+export default CartIcon;

@@ -1,10 +1,11 @@
 import React from 'react';
+import './logo.css'; 
 
 const Logo = () => {
   return (
     <div className="logo">
-      {/* Your logo image or text */}
-    </div>
+      HAMZA ACCESSORIES
+      </div>
   );
 };
 
